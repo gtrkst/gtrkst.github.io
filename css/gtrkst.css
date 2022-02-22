@@ -165,6 +165,7 @@ a {
   html,
   body {
     overflow: auto;
+    width: 100%;
   }
 
   .main {
