@@ -202,6 +202,10 @@ a {
     margin-left: 1%;
   }
 
+  .content {
+    padding-bottom: 5%;
+  }
+
   .header {
     width: 100%;
     display: block;
