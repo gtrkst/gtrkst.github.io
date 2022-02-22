@@ -267,6 +267,10 @@ a {
     visibility: hidden;
   }
 
+  .recruiting {
+    font-size: 3vw;
+  }
+
   .content {
     width: 100%;
   }
