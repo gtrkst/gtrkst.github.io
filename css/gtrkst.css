@@ -1,30 +1,162 @@
+html,
 body {
-    background-color: #fafafa;
-    font-family: 'JetBrains Mono', monospace;
+  background-color: #ffffff;
+  color: #1e1c1c;
+  font-family: "Work Sans";
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
 }
 
 .main {
-  max-width: 675px;
-  max-height: 400px;
-  position: absolute;
-  left: 50%;
-  top: 45%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  height: 100%;
+}
+
+.banner {
+  width: 40%;
+  background-color: #e0dfdc;
+}
+
+.banner-text {
+  width: 88%;
+  margin: 0 auto;
+  top: 0;
+  margin-top: 36%;
+  text-align: left;
+  font-weight: 600;
+}
+
+.banner-name {
+  font-size: 9vw;
+  margin-bottom: -3%;
+}
+
+.banner-founders {
+  font-size: 4.25vw;
+  margin-left: 1%;
+}
+
+.banner-location {
+  font-size: 4.25vw;
+  color: #cdccc9;
+  margin-left: 1%;
+}
+
+.content {
+  width: 60%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  height: 8%;
+  font-weight: 600;
+  font-size: 1vw;
+  text-align: left;
+  border-bottom: 3px solid #1e1c1c;
+}
+
+.ankith-words {
+  width: 20%;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.john-words {
+  width: 20%;
+  margin-left: 1%;
+  display: flex;
+  align-items: center;
+}
+
+.recruiting-header {
+  width: 60%;
+  right: 0;
+  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.investments {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+.investment-content {
+  overflow: auto;
+  height: 80vh;
+  width: 100%;
+  margin-top: 3%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.investment-content::-webkit-scrollbar {
+  display: none;
+}
+
+.recruiting {
+  margin-left: 5%;
+  margin-top: 20%;
+  margin-right: 20%;
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+
+.recruiting-content {
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.content-section {
+  margin-bottom: 3%;
+  font-size: 1.75vw;
+}
+
+.section-content {
+  margin-top: 1%;
+  padding-top: 1%;
+  font-size: 1.5vw;
+  border-top: 2px solid #1e1c1c;
+}
+
+.section-table {
+  width: 100%;
+  text-align: left;
+}
+
+.section-table-row {
+  font-size: 0.9vw;
+}
+
+.section-table-name {
+  width: 30%;
+}
+
+.section-table-location {
+  width: 20%;
+}
+
+.section-table-decription {
+  width: 50%;
+}
+
+.arrow {
+  font-weight: 600;
+}
+
+.acquired {
+  color: #063dff;
 }
 
 a {
-  text-align: right;
-  font-size: 13px;
-}
-
-span {
-  font-size: 12px;
-}
-
-@media screen and (max-width: 481px) {
-  .main {
-    top: 35%;
-    left: 40%;
-    right: -10%;
-  }
+  text-decoration: none;
+  color: #1e1c1c;
 }
