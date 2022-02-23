@@ -79,7 +79,7 @@ body {
   margin-right: 5%;
   display: flex;
   align-items: center;
-  justify-content: right;
+  justify-content: flex-end;
 }
 
 .investments {
@@ -325,7 +325,6 @@ a {
   .recruiting {
     font-size: 4vw;
     height: 100%;
-    margin-top: 17.5%;
     margin-bottom: 5%;
   }
 
