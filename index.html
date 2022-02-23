@@ -34,7 +34,7 @@
                     <a href="/pages/recruiting.html">RECRUITING</a>
                 </div>
             </div>
-            <div class="investments">
+            <div id="investments" class="investments">
                 Investments
                 <div class="investment-content">
                     <div class="content-section">
@@ -256,6 +256,13 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        const target = document.getElementById("investments");
+
+        document.addEventListener("wheel", function(e){
+            target.scrollBy(e.deltaX, e.deltaY);
+        })
+    </script>
 </body>
 
 </html>
