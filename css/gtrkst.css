@@ -215,6 +215,7 @@ a {
     overflow-y: scroll;
     width: auto !important;
     overflow-x: hidden !important;
+    letter-spacing: -0.025em !important;
   }
 
   body {
